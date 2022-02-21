@@ -1,0 +1,101 @@
+Belajar NodeJS 
+WPU
+
+menggunakan software
+node v14.17.3
+npm 6.14.13
+git version 2.28.0. windows.1
+
+develop
+berjalan di disk 
+W:\PEMROGRAMAN\WEB PROGRAMMING UNPAS\Belajar NodeJS
+Y:entertaimen
+-applications
+-belajar-nodejs
+
+dimulai 05-12-2021
+selesai 12-01-2022
+sampai vidoe ke-23
+
+MENGULANG
+dimulai 18-2-2022
+selesai 
+sampai vidoe ke-6
+
+develop
+berjalan di disk 
+W:\PEMROGRAMAN\WEB PROGRAMMING UNPAS\Belajar NodeJS
+-applications
+-belajar-nodejs
+
+* tidak ada file package.json saat instal express 
+
+perintah unix
+untuk membuat file
+touch namafile.extention
+co: touch coba.js 
+
+menghapus file
+rm nama_file.extention
+co: coba.js
+
+meliha isi file
+cat namafile.extention
+co: cat coba.txt
+
+masuk editor script pada terminal
+vi namafile.extention
+co: vi test.js
+
+tekan "i" untuk insert mode
+untuk keluar dari editor script tekan "esc"  
+tekan ":wq" untuk menyimpan dan keluar
+
+==========================================
+
+node => didalam REPL (Read-Evel-Print-Loop)
+
+> global. (tab 2x)
+global.constructor
+global.Array                     global.ArrayBuffer                  global.Atomics                       global.BigInt                        global.BigInt64Array
+global.BigUint64Array      global.Boolean                          global.Buffer                         global.DataView                   global.Date
+global.Error                      global.EvalError                      global.FinalizationRegistry     global.Float32Array             global.Float64Array
+global.Function                  global.Infinity                         global.Int16Array                 global.Int32Array                global.Int8Array
+global.Intl                         global.JSON                           global.Map                            global.Math                          global.NaN
+global.Number                   global.Object                          global.Promise                        global.Proxy                         global.RangeError
+global.ReferenceError       global.Reflect                          global.RegExp                        global.Set                            global.SharedArrayBuffer
+global.String                     global.Symbol                          global.SyntaxError                 global.TextDecoder              global.TextEncoder
+global.TypeError               global.URIError                      global.URL                             global.URLSearchParams       global.Uint16Array
+global.Uint32Array           global.Uint8Array                    global.Uint8ClampedArray      global.WeakMap                  global.WeakRef
+global.WeakSet                 global.WebAssembly                global._                                  global._error                       global.assert
+global.async_hooks             global.buffer                          global.child_process                global.clearImmediate           global.clearInterval
+global.clearTimeout            global.cluster                          global.console                         global.constants                    global.crypto
+global.decodeURI               global.decodeURIComponent    global.dgram                           global.diagnostics_channel     global.dns
+global.domain                      global.encodeURI                   global.encodeURIComponent    global.escape                        global.eval
+global.events                      global.fs                                 global.global                           global.globalThis                  global.http
+global.http2                       global.https                            global.inspector                      global.isFinite                       global.isNaN
+global.module                     global.net                               global.os                                 global.parseFloat                  global.parseInt
+global.path                        global.perf_hooks                   global.process                         global.punycode                     global.querystring
+global.queueMicrotask       global.readline                        global.repl                              global.require                        global.setImmediate
+global.setInterval             global.setTimeout                    global.stream                          global.string_decoder             global.sys
+global.timers                    global.tls                                 global.trace_events                global.tty                               global.undefined
+global.unescape                global.url                                 global.util                              global.v8                                global.vm
+
+
+> .help
+.break    Sometimes you get stuck, this gets you out
+.clear    Alias for .break
+.editor   Enter editor mode
+.exit     Exit the REPL                                                                | shortcut ctrl + c
+.help     Print this help message
+.load     Load JS from a file into the REPL session
+.save     Save all evaluated commands in this REPL session to a file
+
+perintah node
+load file ke REPL untuk menjankan isi file js
+> .load coba.js
+
+menyimpan scrip js di dalam REPL
+save nama_file.extention
+co: > .save test.js
+
