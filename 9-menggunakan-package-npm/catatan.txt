@@ -1,0 +1,30 @@
+menggunakan package
+
+
+cara instal package npm
+co: "npm install namaPackage@versiPackage" 
+> npm install chalk@4.1.0 
+
+cara uninstal package npm
+co: "npm uninstal namaPackage@versiPackage"
+> npm uninstall chalk@4.1.0 
+
+chalk version 4.1.0
+validator version 13.5.2
+nodemon version 2.0.7 // secara global
+
+ctrl + c untuk stop nodemon 
+
+cara instal nodemon secara global
+> npm uninstall -g nodemon@2.0.7
+
+cara instal nodemon secara local
+> npm uninstall --save-dev nodemon@2.0.7
+
+cara uninstall nodemon
+> npm uninstall -g nodemon
+
+
+Cara Mengetahui Paket Yang di Install di Node.js
+npm list -g // secara global
+npm list --depth=0 // secara lokal
