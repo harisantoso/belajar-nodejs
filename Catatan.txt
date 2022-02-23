@@ -8,19 +8,23 @@ git version 2.28.0. windows.1
 
 develop
 berjalan di disk 
-W:\PEMROGRAMAN\WEB PROGRAMMING UNPAS\Belajar NodeJS
 Y:entertaimen
 -applications
 -belajar-nodejs
 
 dimulai 05-12-2021
 selesai 12-01-2022
-sampai vidoe ke-23
+sampai video ke-23
 
 MENGULANG
 dimulai 18-2-2022
 selesai 
-sampai vidoe ke-6
+sampai video ke-9
+
+npm packages
+validator 13.7.0
+chalk 4.1.0
+
 
 develop
 berjalan di disk 
