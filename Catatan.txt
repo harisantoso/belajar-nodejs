@@ -24,6 +24,7 @@ sampai video ke-10
 npm packages
 validator 13.7.0
 chalk 4.1.0
+yargs 16.2.0
 
 
 develop
