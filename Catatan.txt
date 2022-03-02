@@ -19,7 +19,7 @@ sampai video ke-23
 MENGULANG
 dimulai 18-2-2022
 selesai 
-sampai video ke-10
+sampai video ke-12
 
 npm packages
 validator 13.7.0
