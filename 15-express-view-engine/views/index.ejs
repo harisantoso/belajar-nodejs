@@ -1,0 +1,37 @@
+<h1>Express Web Server V4.17.3</h1>
+<p>Welcome to my site..</p>
+<p><%= nama %></p>
+
+<h4>Daftar Mahasiswa</h4>
+
+<% if (mahasiswa.length < 1) { %>
+<p>data mahasiswa masih kosong</p>
+
+<% } else { %>
+
+<% mahasiswa.forEach(mhs =>  { %>
+<ul>
+  <li>Nama Mahasiswa: <%=mhs.nama%> </li>
+  <li>Email Mahasiswa: <%=mhs.email%></li>
+</ul>
+<% }) %>
+
+
+<% } %>
+
+
+
+<!-- format penulisan sama dengan php -->
+
+<!-- 
+  <?php foreach( $angka as $a ) { ?>
+  <div class="kotak"><?php echo $a; ?></div>
+<?php } ?>
+
+<div class="clear"></div>
+
+<?php foreach( $angka as $a ) : ?>
+  <div class="kotak"><?= $a; ?></div>
+<?php endforeach; ?> 
+
+-->
