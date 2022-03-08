@@ -14,6 +14,16 @@
           </tr>
         </thead>
         <tbody>
+
+          <% if (contacts.length === 0) { %>
+          <tr>
+            <td colspan="5">
+              <div class="alert alert-dark fw-bold" role="alert">
+                Data contact masih kosong!
+              </div>
+            </td>
+          </tr>
+          <% } %>
           <% let no =1; %>
           <% contacts.forEach(contact => { %>
           <tr>
