@@ -104,4 +104,5 @@ menyimpan scrip js di dalam REPL
 save nama_file.extention
 co: > .save test.js
 
-alias graph="git log --all --decorate --oneline --graph"
+alias graph="git log --all --decorate --oneline --graph" 
+alias graph="git log --oneline --graph"
